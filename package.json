@@ -1,5 +1,5 @@
 {
-  "name": "test-plan-bot",
+  "name": "test-plan-bot-1",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@octokit/auth-app": "^7.1.5",
     "@octokit/webhooks": "^13.7.5",
-    "@vercel/node": "^5.1.14",
     "next": "15.2.3",
     "octokit": "^4.1.2",
     "react": "^19.0.0",
